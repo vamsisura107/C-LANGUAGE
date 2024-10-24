@@ -1,0 +1,14 @@
+#include <stdio.h>
+void add(int,int);
+void add(int a,int b)
+{
+    printf("the sum is %d",a+b);
+}
+void main()
+{
+    int a,b;
+    printf("enter nums");
+    scanf("%d%d",&a,&b);
+    add(a,b);
+}
+    
