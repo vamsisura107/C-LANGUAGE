@@ -17,8 +17,8 @@ if(str[i]<str[j])
 }
 }
 }
-   }
 return str[5];
+}
 int main()
 {
     sortstring(str1);
