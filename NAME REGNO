@@ -13,11 +13,11 @@ int main()
     for(int i=0;i<3;i++)
      {
          printf("enter the name%d",i+1);
-     scanf("%s",s[i].name);
+     scanf("%s",&s[i].name);
      printf("enter the regno%d",i+1);
-     scanf("%d",s[i].regno);
+     scanf("%d",&s[i].regno);
      printf("enter the marks%d",i+1);
-     scanf("%.1f",s[i].mark);
+     scanf("%.1f",&s[i].mark);
 }
 return 0;
 }
